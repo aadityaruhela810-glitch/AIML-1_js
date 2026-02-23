@@ -43,9 +43,41 @@
 //     console.log("false")
 // }
 
-var a=100;var b=13; var c=10; var linebreak = "<br>";
+// var a=100;var b=13; var c=10; var linebreak = "<br>";
 
-document.write("a+b+c=");
-result = a+b+c;
-document.write(result);
-document.write(linebreak);
+// document.write("a+b+c=");
+// result = a+b+c;
+// document.write(result);
+// document.write(linebreak);
+
+
+// var a=10;
+// var b=20;
+// var linebreak="<br/>";
+
+// document.write("(a==b)=>");
+
+// result =(a<b);
+// document.write(result);
+// document.write(linebreak);
+
+
+// //loops
+// var count;
+// document.write("starting loop" +"<br/>");
+// for(count =0;count<1000;count++){
+// document.write("corrent count:"+count);
+// document.write("<br/>");
+// }
+
+
+// for(key in object){
+// }
+const person={
+    fname:"ajay",
+    lname:"singh",
+    age:25
+};
+for(let x in person ){
+    console.log("person details: "+ x +":"+person[x]);
+}
