@@ -83,3 +83,21 @@
 // }
 
 
+// arrow function 
+// var add2=(a,b)=>
+// {
+//     console.log(a+b);
+// }
+// add2(102,20);
+
+//object
+var person={
+    name:"john mac",
+    age:30,
+    isMarried:true,
+    address:{
+        street:'vinay nagar',
+        FlatNo:201
+    }
+}
+console.log(person)
